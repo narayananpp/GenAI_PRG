@@ -138,3 +138,10 @@ slurm**/
 *.err
 *.slurm
 .vscode/
+
+# Data and model files
+*.npy
+*.pt
+*.pkl
+*.pth
+*.ckpt
