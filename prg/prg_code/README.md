@@ -1,0 +1,1 @@
+python train.py --data_dir ../data_v1/ --mean_path ../data_v1/Mean.npy --std_path ../data_v1/Std.npy --use_intermediates True --batch_size 32 --num_workers 4 --epochs 50 --log_interval 10 --eval_interval 500 --save_interval 2000 --save_dir checkpoints/
